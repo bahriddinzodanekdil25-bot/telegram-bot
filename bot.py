@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 import pytz
-from timezonefinderL import TimezoneFinder
+from timezonefinder import TimezoneFinder
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import openai
@@ -132,3 +132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
